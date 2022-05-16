@@ -4,6 +4,7 @@
     <main>
       <Example />
       <ExampleComposition />
+      <!-- <CommonComponent /> -->
     </main>
   </div>
 </template>
@@ -11,12 +12,14 @@
 <script>
 import Example from "./components/Example.vue";
 import ExampleComposition from "./components/ExampleComposition.vue";
+// import CommonComponent from "./components/CommentComponent.vue";
 
 export default {
   name: "App",
   components: {
     Example,
     ExampleComposition,
+    // CommonComponent,
   },
 };
 </script>
